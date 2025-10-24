@@ -1,0 +1,7 @@
+loops :
+      for,while,do while
+      for in , for of 
+      map,forEach,filter,reduce
+      find,some,entry
+entry-controlled loops : for , while
+exited-controlled loops : do while

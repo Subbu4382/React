@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* ---------- TOP NAVBAR ---------- */
+.top-navbar {
+  display: flex;
+  /* justify-content: space; */
+  gap: 400px;
+  align-items: center;
+  background-color: #f0ecec;
+  color: #131313;
+  padding: 8px 80px;
+  /* font-size: 60px; */
+  letter-spacing: 0.5px;
+  height: 120px;
+}
+.top-navbar span{
+  color: rgb(247, 152, 11);
+}
+.top-navbar ul {
+  list-style: none;
+  display: flex;
+  font-size: 25px;
+  gap:50px;
+}
+
+.top-navbar li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.top-navbar li:hover {
+  color: #f76b6a;
+}
+
+.navbar {
+  display: flex;
+  /* justify-content: space-evenly; */
+  height: 150px;
+  font-size: 20px;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  color: rgb(89, 86, 86);
+  box-shadow: 0 2px 2px 2px rgb(132, 123, 123);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  font-size: 22px;
+  gap: 25px;
+  margin-left: 200px;
+  
+}
+
+.category {
+  /* text-align: center; */
+  margin: 40px 20px;
+  font-size: 40px;
+}
+
+.cat-container{
+  display: flex;
+  gap: 20px;
+  margin-top: 80px;
+}
+
+.cat-box {
+  background: #eee;
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  font-size: 39px;
+  color: rgb(54, 55, 55);
+}
+
+.main{
+  display: flex;
+}
+.left-text{
+  margin: 50px;
+}
+.left-text h2{
+  font-size: 40px;
+}
+.left-text h1{
+  font-size: 50px;
+}
+.left-text p{
+  font-size: 20px;
+}
+.left-text button{
+  margin: 20px 0;
+  padding: 20px;
+}
+.right-image{
+  width: 500px;
+}
