@@ -1,0 +1,40 @@
+/* Center the entire app */
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f4f6;
+}
+
+/* Heading */
+.title {
+  font-size: 2rem;
+  color: #0f6529;
+  margin-bottom: 15px;
+}
+
+/* Count display */
+.counter-value {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #0078d7;
+}
+.btn {
+  display: flex;
+  gap: 15px;
+}
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0078d7;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #023356;
+}
