@@ -26,7 +26,7 @@ export class Card extends Component {
         <button
           style={{
             margin: "10px",
-            padding: "5px",
+            padding: "8px",
             color: "blue",
             backgroundColor: "lightblue",
             border: "None",
