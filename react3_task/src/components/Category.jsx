@@ -1,19 +1,46 @@
 import React from "react";
 
 const Category = () => {
+  const data = [
+    {
+      image:
+        "https://food-mart-template.vercel.app/images/icon-vegetables-broccoli.png",
+      title: "Fruits & Veges",
+    },
+    {
+      image:
+        "https://food-mart-template.vercel.app/images/icon-bread-baguette.png",
+      title: "Breads & Sweets",
+    },
+
+    {
+      image:
+        "https://food-mart-template.vercel.app/images/icon-soft-drinks-bottle.png",
+      title: "Fruits & Veges",
+    },
+    {
+      image:
+        "https://food-mart-template.vercel.app/images/icon-soft-drinks-bottle.png",
+      title: "Fruits & Veges",
+    },
+    {
+      image:
+        "https://food-mart-template.vercel.app/images/icon-wine-glass-bottle.png",
+      title: "Fruits & Veges",
+    },
+  ];
   return (
-    <section className="category">
-      <h3>Category</h3>
-      <div className="cat-container">
-        <div className="cat-box">Fruits & Veges</div>
-        <div className="cat-box">Breads & Sweets</div>
-        <div className="cat-box">Fruits & Veges</div>
-        <div className="cat-box">Fruits & Veges</div>
-        <div className="cat-box">Fruits & Veges</div>
-        <div className="cat-box">Fruits & Veges</div>
-        
+    <div>
+      <h3 style={{margin:"20px 0 20px 80px",fontSize:"40px"}}>Category</h3>
+      <div className="parent-card-container">
+        {data.map((value, index) => (
+          <div key={index} className="child-card-container">
+            <img src={value.image} alt={value.image} />
+            <h5>{value.title}</h5>
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
   );
 };
 
