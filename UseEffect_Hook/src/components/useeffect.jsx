@@ -116,7 +116,15 @@ export function Example_useEffect() {
               cursor: "pointer",
             }}
           >
-            <p>{item.title}</p>
+            <h2
+              style={{
+                fontSize: "22px",
+                marginBottom: "10px",
+                fontWeight: "600",
+              }}
+            >
+              {item.title}
+            </h2>
             <p>{item.category}</p>
             <p>{item.price}</p>
             <p>{item.rating}</p>
